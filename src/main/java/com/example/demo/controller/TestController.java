@@ -17,4 +17,8 @@ public class TestController {
     public String index(String smg){
         return smg;
     }
+    @RequestMapping("/index2")
+    public String index(){
+        return "asjkdhsjhdk";
+    }
 }
